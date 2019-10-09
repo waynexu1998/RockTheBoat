@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  RockTheBoat
+
+  Created by Jiangyong Xu on 10/8/19.
+  Copyright © 2019 Jiangyong Xu. All rights reserved.
+*/
+
+"alpha" = "透明度";
+"photo" = "照片";

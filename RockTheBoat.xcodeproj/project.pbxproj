@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81CC296F234D8E1100EF1CDE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81CC296C234D8E1100EF1CDE /* Localizable.strings */; };
 		81FA824A234D893900642B1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FA8249234D893900642B1A /* AppDelegate.swift */; };
 		81FA824C234D893900642B1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FA824B234D893900642B1A /* ViewController.swift */; };
 		81FA824F234D893900642B1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81FA824D234D893900642B1A /* Main.storyboard */; };
@@ -26,6 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		81CC296D234D8E1100EF1CDE /* zh_Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_Hans; path = zh_Hans.lproj/Localizable.strings; sourceTree = "<group>"; };
+		81CC296E234D8E1100EF1CDE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		81FA8246234D893900642B1A /* RockTheBoat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockTheBoat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81FA8249234D893900642B1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81FA824B234D893900642B1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +59,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		81CC296B234D8E1100EF1CDE /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				81CC296C234D8E1100EF1CDE /* Localizable.strings */,
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
 		81FA823D234D893900642B1A = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +88,7 @@
 		81FA8248234D893900642B1A /* RockTheBoat */ = {
 			isa = PBXGroup;
 			children = (
+				81CC296B234D8E1100EF1CDE /* Localizable */,
 				81FA8249234D893900642B1A /* AppDelegate.swift */,
 				81FA824B234D893900642B1A /* ViewController.swift */,
 				81FA824D234D893900642B1A /* Main.storyboard */,
@@ -160,6 +172,8 @@
 			knownRegions = (
 				en,
 				Base,
+				zh_Hans,
+				"zh-Hans",
 			);
 			mainGroup = 81FA823D234D893900642B1A;
 			productRefGroup = 81FA8247234D893900642B1A /* Products */;
@@ -178,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81FA8254234D893A00642B1A /* LaunchScreen.storyboard in Resources */,
+				81CC296F234D8E1100EF1CDE /* Localizable.strings in Resources */,
 				81FA8251234D893A00642B1A /* Assets.xcassets in Resources */,
 				81FA824F234D893900642B1A /* Main.storyboard in Resources */,
 			);
@@ -221,6 +236,15 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		81CC296C234D8E1100EF1CDE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81CC296D234D8E1100EF1CDE /* zh_Hans */,
+				81CC296E234D8E1100EF1CDE /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		81FA824D234D893900642B1A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

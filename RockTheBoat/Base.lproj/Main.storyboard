@@ -22,7 +22,7 @@
                                 <rect key="frame" x="97" y="748" width="220" height="108"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zjs-uG-bgb">
-                                        <rect key="frame" x="20" y="20" width="40" height="30"/>
+                                        <rect key="frame" x="20" y="20" width="70" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Alpha"/>
                                         <connections>
@@ -30,7 +30,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kyr-Rk-M3t">
-                                        <rect key="frame" x="145" y="20" width="39" height="30"/>
+                                        <rect key="frame" x="128" y="20" width="79" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Stack"/>
                                         <connections>
@@ -38,14 +38,20 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ayc-so-QvO">
-                                        <rect key="frame" x="128" y="58" width="72" height="30"/>
+                                        <rect key="frame" x="128" y="58" width="97" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Constraint"/>
+                                        <connections>
+                                            <action selector="constraint:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yHv-sm-4Ky"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4BJ-Vb-VCv">
-                                        <rect key="frame" x="24" y="58" width="32" height="30"/>
+                                        <rect key="frame" x="24" y="58" width="66" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Nest"/>
+                                        <connections>
+                                            <action selector="nestAnim:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kb8-NK-bLd"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -83,7 +89,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="alphButton" destination="zjs-uG-bgb" id="AqQ-dc-XGj"/>
                         <outlet property="image" destination="45V-Re-mGV" id="sMS-Pj-qW7"/>
+                        <outlet property="photoLabel" destination="nhP-Wf-74b" id="mtB-ri-GfO"/>
+                        <outlet property="photoW" destination="qcC-y5-0od" id="PiO-9n-P9t"/>
                         <outlet property="stackViewBottomConstraint" destination="L0Y-Qz-9kM" id="Is5-a6-huH"/>
                     </connections>
                 </viewController>

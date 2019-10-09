@@ -10,10 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var photoLabel: UILabel!
+    @IBOutlet weak var photoW: NSLayoutConstraint!
     @IBOutlet weak var stackViewBottomConstraint: NSLayoutConstraint!
     @IBOutlet weak var image: UIImageView!
+    @IBOutlet weak var alphButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
+        image.alpha = 0
+        alphButton.setTitle(NSLocalizedString("alpha", comment: ""), for: .normal)
+        photoLabel.text = NSLocalizedString("photo", comment: "")
         // Do any additional setup after loading the view.
     }
 
@@ -55,9 +61,21 @@ class ViewController: UIViewController {
     
     
     @IBAction func stackAnim(_ sender: Any) {
-        
+        constraint1(false)
+        constraint1(true)
     }
     
+    
+    @IBAction func nestAnim(_ sender: Any) {
+        rotate()
+    }
+    
+    @IBAction func constraint(_ sender: Any) {
+        UIView.animate(withDuration: 1.5, animations: {
+            self.photoW.constant += -50.0
+            self.view.layoutIfNeeded()
+        })
+    }
     
 }
 
