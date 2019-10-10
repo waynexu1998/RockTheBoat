@@ -8,3 +8,6 @@
 
 "alpha" = "透明度";
 "photo" = "照片";
+"nested" = "嵌套动画";
+"stack" = "堆叠动画";
+"constraint" = "限制动画";

@@ -6,5 +6,8 @@
   Copyright © 2019 Jiangyong Xu. All rights reserved.
 */
 
-"alpha" = "alpha";
+"alpha" = "Alpha";
 "photo" = "Photo";
+"nested" = "Nested";
+"stack" = "Stack";
+"constraint" = "Constraint";

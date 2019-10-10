@@ -90,10 +90,13 @@
                     </view>
                     <connections>
                         <outlet property="alphButton" destination="zjs-uG-bgb" id="AqQ-dc-XGj"/>
+                        <outlet property="constraintButton" destination="Ayc-so-QvO" id="p90-xP-5MP"/>
                         <outlet property="image" destination="45V-Re-mGV" id="sMS-Pj-qW7"/>
+                        <outlet property="nestBUtton" destination="4BJ-Vb-VCv" id="dpV-O1-iIe"/>
                         <outlet property="photoLabel" destination="nhP-Wf-74b" id="mtB-ri-GfO"/>
                         <outlet property="photoW" destination="qcC-y5-0od" id="PiO-9n-P9t"/>
                         <outlet property="stackViewBottomConstraint" destination="L0Y-Qz-9kM" id="Is5-a6-huH"/>
+                        <outlet property="stackbutton" destination="Kyr-Rk-M3t" id="dR6-JS-tdZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

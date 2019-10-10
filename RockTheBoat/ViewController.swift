@@ -15,11 +15,17 @@ class ViewController: UIViewController {
     @IBOutlet weak var stackViewBottomConstraint: NSLayoutConstraint!
     @IBOutlet weak var image: UIImageView!
     @IBOutlet weak var alphButton: UIButton!
+    @IBOutlet weak var stackbutton: UIButton!
+    @IBOutlet weak var nestBUtton: UIButton!
+    @IBOutlet weak var constraintButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         image.alpha = 0
         alphButton.setTitle(NSLocalizedString("alpha", comment: ""), for: .normal)
         photoLabel.text = NSLocalizedString("photo", comment: "")
+        stackbutton.setTitle(NSLocalizedString("stack", comment: ""), for: .normal)
+        nestBUtton.setTitle(NSLocalizedString("nested", comment: ""), for: .normal)
+        constraintButton.setTitle(NSLocalizedString("constraint", comment: ""), for: .normal)
         // Do any additional setup after loading the view.
     }
 
